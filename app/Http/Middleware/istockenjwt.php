@@ -17,11 +17,11 @@ class istockenjwt
      */
     public function handle(Request $request, Closure $next): Response
     {
-        try {
-            $user = JWTAuth::parseToken()->authenticate();
-        } catch (JWTException $e) {
-            return response()->json(['error' => 'Token not valid'], 401);
-        }
+//        try {
+//            $user = JWTAuth::parseToken()->authenticate();
+//        } catch (JWTException $e) {
+//            return response()->json(['error' => 'Token not valid'], 401);
+//        }
 
         return $next($request);
     }
