@@ -7,7 +7,38 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# Laravel JWT Authentication Example
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This project is an example of how to implement JWT-based authentication in a Laravel application. It demonstrates secure user login and token generation using JSON Web Tokens.
 
+## Features
+- User registration and login
+- JWT-based authentication
+- Token validation
+- Secure routes accessible only to authenticated users
+
+## Prerequisites
+- PHP 8.x
+- Composer
+- Laravel 12
+- A database (e.g., MySQL)
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mohoseiin/laravel_api_jwt.git
+   cd laravel_api_jwt
+   
+2. Install dependencies:
+   ```bash
+   composer install
+
+3. Run migrations:
+   ```bash
+   php artisan migrate
+
+
+## useing
+1. Clone the repository:
+   ```bash
+   php artisan serve
