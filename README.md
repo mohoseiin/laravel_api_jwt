@@ -42,3 +42,11 @@ This project is an example of how to implement JWT-based authentication in a Lar
 1. Clone the repository:
    ```bash
    php artisan serve
+
+## Author
+
+  mohammad hoseiin shaban nejad <a href="https://github.com/mohoseiin">github</a>  
+
+## License
+  This project is released under the MIT license.
+
